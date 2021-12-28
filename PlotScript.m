@@ -20,7 +20,7 @@ xlabel('Time (s)');
 %% Output Current
 figure;
 plot(out.ArmatureCurrent,'LineWidth',1.5,'Color',[0.7 0 0]);
-xlim([1 1.02]);
+xlim([2 2.02]);
 grid on;
 grid minor;
 title('Armature Current Waveform (f_s = 3 kHz & D = 0.8)');
@@ -61,4 +61,22 @@ grid on;
 grid minor;
 title('Freewheeling Diode Current Waveform (f_s = 3 kHz & D = 0.8)');
 ylabel('Current (A)');
+xlabel('Time (s)');
+%% Input Current
+figure;
+plot(out.InputCurrent,'LineWidth',1.5,'Color',[0.7 0 0]);
+xlim([2 2.04]);
+grid on;
+grid minor;
+title('Input Current Waveform (f_s = 3 kHz & D = 0.8)');
+ylabel('Current (A)');
+xlabel('Time (s)');
+%% Output Voltage of Rectifier
+figure;
+plot(out.RectifierOutputVoltage,'LineWidth',1.5,'Color',[0.7 0 0]);
+xlim([1 1.04]);
+grid on;
+grid minor;
+title('Three Phase Full-Bridge Rectifier Output Voltage Waveform (f_s = 3 kHz & D = 0.8)');
+ylabel('Voltage (V)');
 xlabel('Time (s)');
