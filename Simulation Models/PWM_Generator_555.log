@@ -1,0 +1,21 @@
+Circuit: * D:\Github\EE463-TERM-PROJECT\Simulation Models\PWM_Generator_555.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Mon Jan 24 22:19:17 2022
+Total elapsed time: 0.133 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6771
+traniter = 6758
+tranpoints = 2032
+accept = 1803
+rejected = 229
+matrix size = 14
+fillins = 0
+solver = Normal
+Matrix Compiler1: 384 bytes object code size  0.1/0.1/[0.0]
+Matrix Compiler2: 776 bytes object code size  0.1/0.1/[0.1]
+
